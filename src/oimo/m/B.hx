@@ -19,10 +19,10 @@ class B {
 #if macro
 
 	// print imports of all classes
-	static inline var WRITE_IMPORTS:Bool = true;
+	static inline var WRITE_IMPORTS:Bool = false;
 	// print exports and externs for JS closure compiler
-	static inline var WRITE_EXPORTS:Bool = true;
-	static inline var WRITE_EXTERNS:Bool = true;
+	static inline var WRITE_EXPORTS:Bool = false;
+	static inline var WRITE_EXTERNS:Bool = false;
 
 	static function log(s:String):Void {
 		//trace(s);
